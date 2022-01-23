@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Author: lkatsikas
+# Description: Run this script in order to delete files 
+# that contain statistics and other output data created 
+# from ns3 code samples.
+
+rm -rf *.txt
+rm -rf *.png
+rm -rf *.rem
+rm -rf *.out
+rm -rf *.xml
+rm -rf *.pcap
+rm -rf *.log
+rm -rf *.dat
+rm -rf *~
+ 
+clear
+echo "-------------------- Directory is clear! --------------------"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/edges_file.xsd">
+	<edge id="a00" from="000" to="0" type="a" />
+	
+	<edge id="a0" from="00" to="0" type="a" />
+	<edge id="a1" from="01" to="0" type="a" />
+	<edge id="a2" from="02" to="0" type="a" />	
+	<edge id="a3" from="03" to="0" type="a" />
+	<edge id="a4" from="04" to="0" type="a" />
+	<edge id="a5" from="05" to="17" type="b" />
+	<edge id="a6" from="06" to="17" type="b" />
+	<edge id="a7" from="07" to="17" type="b" />
+	<edge id="a8" from="08" to="17" type="b" />
+	<edge id="a9" from="09" to="17" type="b" />
+	
+	<edge id="a" from="0" to="12" type="a" />
+	<edge id="b" from="12" to="1" type="a" />
+	<edge id="c" from="1" to="7" type="a" />
+	<edge id="d" from="7" to="2" type="a" />
+	<edge id="e" from="2" to="14" type="a" />
+	<edge id="f" from="14" to="3" type="a" />
+	<edge id="g" from="3" to="9" type="a" />
+	<edge id="h" from="9" to="4" type="a" />
+	<edge id="i" from="4" to="16" type="a" />
+	<edge id="j" from="16" to="5" type="a" />
+	<edge id="k" from="5" to="11" type="a" />
+	<edge id="l" from="11" to="17" type="a" />
+
+	<edge id="m" from="17" to="5" type="b" />
+	<edge id="n" from="5" to="10" type="b" />
+	<edge id="o" from="10" to="4" type="b" />
+	<edge id="p" from="4" to="15" type="b" />
+	<edge id="q" from="15" to="3" type="b" />
+	<edge id="r" from="3" to="8" type="b" />
+	<edge id="s" from="8" to="2" type="b" />
+	<edge id="t" from="2" to="13" type="b" />
+	<edge id="u" from="13" to="1" type="b" />
+	<edge id="v" from="1" to="6" type="b" />
+	<edge id="w" from="6" to="0" type="b" />
+</edges>

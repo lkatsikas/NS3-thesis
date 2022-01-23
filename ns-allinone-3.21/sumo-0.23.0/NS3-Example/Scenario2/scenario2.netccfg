@@ -1,0 +1,10 @@
+<configuration>
+   <input>
+       <edge-files value="scenario1.edg.xml"/>
+       <node-files value="scenario1.nod.xml"/>
+       <type-files value="scenario1.typ.xml"/>
+   </input>
+   <processing>
+       <no-turnarounds value="true"/>
+   </processing>
+</configuration>

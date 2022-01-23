@@ -1,0 +1,14 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_program('v2v-novel-algorithm-example', ['v2v'])
+    obj.source = 'v2v-novel-algorithm-example.cc',
+
+    obj = bld.create_ns3_program('v2v-affinity-algorithm-example', ['v2v'])
+    obj.source = 'v2v-affinity-algorithm-example.cc',
+
+    obj = bld.create_ns3_program('v2v-modified-dmac-algorithm-example', ['v2v'])
+    obj.source = 'v2v-modified-dmac-algorithm-example.cc',
+
+    obj = bld.create_ns3_program('v2v-general-example', ['v2v'])
+    obj.source = 'v2v-general-example.cc'

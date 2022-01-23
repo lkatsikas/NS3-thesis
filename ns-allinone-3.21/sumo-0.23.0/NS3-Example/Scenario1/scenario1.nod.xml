@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/nodes_file.xsd">
+	<node id="000" x="0" y="0" />
+		
+	<node id="00" x="2010" y="500" />
+	<node id="01" x="2015" y="500" />	
+	<node id="02" x="2020" y="500" />
+	<node id="03" x="2010" y="505" />
+	<node id="04" x="2015" y="505" />
+	<node id="05" x="2020" y="505" />
+	<node id="06" x="2010" y="510" />
+	<node id="07" x="2015" y="510" />
+	<node id="08" x="2020" y="510" />
+	<node id="09" x="2010" y="515" />
+
+	<node id="0" x="2000" y="500" />
+	<node id="1" x="2000" y="1500" />
+	<node id="2" x="2000" y="2500" />
+	<node id="3" x="2000" y="3500" />
+	<node id="4" x="2000" y="4500" />
+	<node id="5" x="2000" y="5500" />
+	<node id="6" x="1133.97" y="1000" />
+	<node id="7" x="1133.97" y="2000" />
+	<node id="8" x="1133.97" y="3000" />
+	<node id="9" x="1133.97" y="4000" />
+	<node id="10" x="1133.97" y="5000" />
+	<node id="11" x="1133.97" y="6000" />
+	<node id="12" x="2866.03" y="1000" />
+	<node id="13" x="2866.03" y="2000" />
+	<node id="14" x="2866.03" y="3000" />
+	<node id="15" x="2866.03" y="4000" />
+	<node id="16" x="2866.03" y="5000" />
+	<node id="17" x="2866.03" y="6000" />
+</nodes>

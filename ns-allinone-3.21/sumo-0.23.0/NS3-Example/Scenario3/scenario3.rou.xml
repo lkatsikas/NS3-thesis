@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType departSpeed="max" accel="8.3" decel="0.5" id="CarA" length="5.0" minGap="0.5" maxSpeed="8.3" sigma="0.5" />
+	<vType departSpeed="max" accel="8.3" decel="0.5" id="CarB" length="5.0" minGap="0.5" maxSpeed="8.3" sigma="0.5" />
+
+	<route id="route00" edges="a0 a b c d e g h i j d m n o" />
+	<route id="route01" edges="a1 a b c d e g h i j d m n o" />
+	<route id="route02" edges="a2 a b c d e g h i j d m n o" />
+	<route id="route03" edges="a3 a b c d e g h i j d m n o" />
+	<route id="route04" edges="a4 a b c d e g h i j d m n o" />
+	<route id="route05" edges="a5 q r s u v w x y z u z2 z3 z5" />
+	<route id="route06" edges="a6 q r s u v w x y z u z2 z3 z5" />
+	<route id="route07" edges="a7 q r s u v w x y z u z2 z3 z5" />
+	<route id="route08" edges="a8 q r s u v w x y z u z2 z3 z5" />
+	<route id="route09" edges="a9 q r s u v w x y z u z2 z3 z5" />
+
+	<vehicle depart="0.0" id="veh0" route="route00" type="CarA" color="1,0,0" /> 
+	<vehicle depart="0.0" id="veh1" route="route01" type="CarA" color="1,0,0" /> 
+	<vehicle depart="0.0" id="veh2" route="route02" type="CarA" color="1,0,0" /> 
+	<vehicle depart="0.0" id="veh3" route="route03" type="CarA" color="1,0,0" /> 
+	<vehicle depart="0.0" id="veh4" route="route04" type="CarA" color="1,0,0" /> 
+	<vehicle depart="0.0" id="veh5" route="route05" type="CarB" color="0,1,0" /> 
+	<vehicle depart="0.0" id="veh6" route="route06" type="CarB" color="0,1,0" /> 
+	<vehicle depart="0.0" id="veh7" route="route07" type="CarB" color="0,1,0" /> 
+	<vehicle depart="0.0" id="veh8" route="route08" type="CarB" color="0,1,0" /> 
+	<vehicle depart="0.0" id="veh9" route="route09" type="CarB" color="0,1,0" /> 
+</routes>
